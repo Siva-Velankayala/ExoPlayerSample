@@ -53,8 +53,8 @@ class MainActivity : AppCompatActivity() {
             playbackPosition = it.currentPosition
             playwhenReady = it.playWhenReady
             it.release()
-            player = null
         }
+        player = null
     }
 
     //Android API level 24 and higher supports multiple windows.
